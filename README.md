@@ -36,15 +36,6 @@ yarn dev
 * open: http://localhost:5173/
 
 ***
-### build
-
-* SSG build
-
-```
-yarn build
-```
-
-***
 ### Blog:
 
 
