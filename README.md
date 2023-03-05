@@ -44,6 +44,20 @@ yarn dev
 yarn dev
 
 ```
+***
+### build
+
+```
+#server 
+
+cd server
+
+yarn build
+
+yarn start
+
+```
+***
 
 * open: http://localhost:5173/
 
