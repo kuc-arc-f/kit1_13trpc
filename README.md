@@ -21,6 +21,18 @@ npm install
 ```
 
 ***
+* server/.env : postgres set
+
+```
+POSTGRES_DATABASE="chat"
+POSTGRES_USER=""
+POSTGRES_PASSWORD=""
+POSTGRES_HOST=""
+POSTGRES_PORT=5432
+
+```
+
+***
 ### Start server
 * start :
 
