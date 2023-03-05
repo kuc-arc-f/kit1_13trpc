@@ -28,6 +28,7 @@
 			<li aria-current={$page.url.pathname === '/test' ? 'page' : undefined}>
 				<a href="/test">[ Test ]</a>
 			</li>
+			<!--
 			<li aria-current={$page.url.pathname === '/test2' ? 'page' : undefined}>
 				<a href="/test2">[ test2 ]</a>
 			</li>
@@ -37,10 +38,14 @@
 			<li aria-current={$page.url.pathname === '/store3' ? 'page' : undefined}>
 				<a href="/store3">[ store3 ]</a>
 			</li>
+			-->
 			<li aria-current={$page.url.pathname === '/trpc' ? 'page' : undefined}>
 				<a href="/trpc">[ trpc ]</a>
-			</li>			
-			<!--
+			</li>
+			<li aria-current={$page.url.pathname === '/trpc2' ? 'page' : undefined}>
+				<a href="/trpc2">[ trpc2 ]</a>
+			</li>						
+			<!-- trpc2
 			-->
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">

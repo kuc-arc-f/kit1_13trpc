@@ -5,11 +5,11 @@ import { trpc } from '../../utils/trpc';
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
   try {   
-    const userList = await trpc.getUserList.query();
-    console.log(userList);    
-    //console.log("PUBLIC_API_URL=", PUBLIC_API_URL);    
+    const taskList = await trpc.getTaskList.query();
+    //const userList = await trpc.getUserList.query();
+    console.log(taskList);    
     return {
-      userList: userList,
+      userList: taskList,
     };  
   } catch (e) {
     console.error(e);

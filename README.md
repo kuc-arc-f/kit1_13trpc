@@ -6,7 +6,7 @@
 
  date    : 2023/03/02 
 
- update  :
+ update  : 2023/03/05
  
 ***
 ### Summary
@@ -32,6 +32,11 @@ POSTGRES_PORT=5432
 
 ```
 
+***
+* client/.env
+```
+PUBLIC_TRPC_URL = "http://localhost:3000/trpc"
+```
 ***
 ### Start server
 * start :
